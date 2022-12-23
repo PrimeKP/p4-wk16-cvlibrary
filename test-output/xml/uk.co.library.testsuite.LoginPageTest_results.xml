@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LoginPage Test"
+           tests="7"
+           failures="7"
+           errors="0"
+           skipped="0"
+           time="16.341">
+  <properties />
+            <testcase name="verifyJobSearchResultUsingDifferentDataSet" time="2.377" classname="uk.co.library.testsuite.LoginPageTest">
+                <failure type="org.openqa.selenium.ElementClickInterceptedException"
+                  message="element click intercepted: Element &lt;button type=&quot;button&quot; id=&quot;toggle-hp-search&quot; aria-expanded=&quot;false&quot;&gt;...&lt;/button&gt; is not clickable at point (331, 381). Other element would receive the click: &lt;iframe src=&quot;https://cmp-consent-tool.privacymanager.io/latest/index.html#/notice?theme=fadeToBlackTheme&amp;amp;useSystemFonts=false&amp;amp;cmpType=tcf&quot; id=&quot;gdpr-consent-notice&quot; class=&quot;faktor-iframe-wrapper&quot; aria-label=&quot;Privacy Manager window&quot; role=&quot;dialog&quot; aria-modal=&quot;true&quot; frameborder=&quot;0&quot; scrolling=&quot;yes&quot; style=&quot;width: 100%; left: 0px; bottom: 0px; position: fixed; z-index: 2147483647; box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 30px 5px, rgba(0, 0, 0, 0.14) 0px 16px 24px 2px, rgba(0, 0, 0, 0.2) 0px 8px 10px -5px; height: 343px;&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=108.0.5359.124)
+Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [23b06563454df67bee83fe158000c0be, clickElement {id=98fcbfcf-c861-474f-adbe-85ec71004790}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\kaush\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65148}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65148/devtoo..., se:cdpVersion: 108.0.5359.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (23b06563454df67bee83fe158000c0be)] -&gt; xpath: //button[@id=&apos;toggle-hp-search&apos;]]
+Session ID: 23b06563454df67bee83fe158000c0be"
+              >
+<![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button type="button" id="toggle-hp-search" aria-expanded="false">...</button> is not clickable at point (331, 381). Other element would receive the click: <iframe src="https://cmp-consent-tool.privacymanager.io/latest/index.html#/notice?theme=fadeToBlackTheme&amp;useSystemFonts=false&amp;cmpType=tcf" id="gdpr-consent-notice" class="faktor-iframe-wrapper" aria-label="Privacy Manager window" role="dialog" aria-modal="true" frameborder="0" scrolling="yes" style="width: 100%; left: 0px; bottom: 0px; position: fixed; z-index: 2147483647; box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 30px 5px, rgba(0, 0, 0, 0.14) 0px 16px 24px 2px, rgba(0, 0, 0, 0.2) 0px 8px 10px -5px; height: 343px;"></iframe>
+  (Session info: chrome=108.0.5359.124)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [23b06563454df67bee83fe158000c0be, clickElement {id=98fcbfcf-c861-474f-adbe-85ec71004790}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\kaush\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65148}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65148/devtoo..., se:cdpVersion: 108.0.5359.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (23b06563454df67bee83fe158000c0be)] -> xpath: //button[@id='toggle-hp-search']]
+Session ID: 23b06563454df67bee83fe158000c0be
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+  org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+  org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+  com.sun.proxy.$Proxy16.click(Unknown Source)
+  uk.co.library.utility.Utility.clickOnElement(Utility.java:53)
+  uk.co.library.pages.HomePage.clickOnMoreSearchOptionLink(HomePage.java:45)
+  uk.co.library.testsuite.LoginPageTest.verifyJobSearchResultUsingDifferentDataSet(LoginPageTest.java:34)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.util.ArrayList.forEach(ArrayList.java:1249)
+  org.testng.TestRunner.privateRun(TestRunner.java:808)
+  org.testng.TestRunner.run(TestRunner.java:603)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+  org.testng.SuiteRunner.run(SuiteRunner.java:326)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.runSuites(TestNG.java:1092)
+  org.testng.TestNG.run(TestNG.java:1060)
+  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+  com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="verifyJobSearchResultUsingDifferentDataSet" time="2.217" classname="uk.co.library.testsuite.LoginPageTest">
+                <failure type="org.openqa.selenium.ElementClickInterceptedException"
+                  message="element click intercepted: Element &lt;button type=&quot;button&quot; id=&quot;toggle-hp-search&quot; aria-expanded=&quot;false&quot;&gt;...&lt;/button&gt; is not clickable at point (331, 381). Other element would receive the click: &lt;iframe src=&quot;https://cmp-consent-tool.privacymanager.io/latest/index.html#/notice?theme=fadeToBlackTheme&amp;amp;useSystemFonts=false&amp;amp;cmpType=tcf&quot; id=&quot;gdpr-consent-notice&quot; class=&quot;faktor-iframe-wrapper&quot; aria-label=&quot;Privacy Manager window&quot; role=&quot;dialog&quot; aria-modal=&quot;true&quot; frameborder=&quot;0&quot; scrolling=&quot;yes&quot; style=&quot;width: 100%; left: 0px; bottom: 0px; position: fixed; z-index: 2147483647; box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 30px 5px, rgba(0, 0, 0, 0.14) 0px 16px 24px 2px, rgba(0, 0, 0, 0.2) 0px 8px 10px -5px; height: 343px;&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=108.0.5359.124)
+Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5106d837ecc028fa0a3f1c7a0977d7ca, clickElement {id=60012c76-ee65-4a7e-99e9-aef31e383e4d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\kaush\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65323}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65323/devtoo..., se:cdpVersion: 108.0.5359.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (5106d837ecc028fa0a3f1c7a0977d7ca)] -&gt; xpath: //button[@id=&apos;toggle-hp-search&apos;]]
+Session ID: 5106d837ecc028fa0a3f1c7a0977d7ca"
+              >
+<![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button type="button" id="toggle-hp-search" aria-expanded="false">...</button> is not clickable at point (331, 381). Other element would receive the click: <iframe src="https://cmp-consent-tool.privacymanager.io/latest/index.html#/notice?theme=fadeToBlackTheme&amp;useSystemFonts=false&amp;cmpType=tcf" id="gdpr-consent-notice" class="faktor-iframe-wrapper" aria-label="Privacy Manager window" role="dialog" aria-modal="true" frameborder="0" scrolling="yes" style="width: 100%; left: 0px; bottom: 0px; position: fixed; z-index: 2147483647; box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 30px 5px, rgba(0, 0, 0, 0.14) 0px 16px 24px 2px, rgba(0, 0, 0, 0.2) 0px 8px 10px -5px; height: 343px;"></iframe>
+  (Session info: chrome=108.0.5359.124)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5106d837ecc028fa0a3f1c7a0977d7ca, clickElement {id=60012c76-ee65-4a7e-99e9-aef31e383e4d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\kaush\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65323}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65323/devtoo..., se:cdpVersion: 108.0.5359.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (5106d837ecc028fa0a3f1c7a0977d7ca)] -> xpath: //button[@id='toggle-hp-search']]
+Session ID: 5106d837ecc028fa0a3f1c7a0977d7ca
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+  org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+  org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+  com.sun.proxy.$Proxy16.click(Unknown Source)
+  uk.co.library.utility.Utility.clickOnElement(Utility.java:53)
+  uk.co.library.pages.HomePage.clickOnMoreSearchOptionLink(HomePage.java:45)
+  uk.co.library.testsuite.LoginPageTest.verifyJobSearchResultUsingDifferentDataSet(LoginPageTest.java:34)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.util.ArrayList.forEach(ArrayList.java:1249)
+  org.testng.TestRunner.privateRun(TestRunner.java:808)
+  org.testng.TestRunner.run(TestRunner.java:603)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+  org.testng.SuiteRunner.run(SuiteRunner.java:326)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.runSuites(TestNG.java:1092)
+  org.testng.TestNG.run(TestNG.java:1060)
+  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+  com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="verifyJobSearchResultUsingDifferentDataSet" time="2.422" classname="uk.co.library.testsuite.LoginPageTest">
+                <failure type="org.openqa.selenium.ElementClickInterceptedException"
+                  message="element click intercepted: Element &lt;button type=&quot;button&quot; id=&quot;toggle-hp-search&quot; aria-expanded=&quot;false&quot;&gt;...&lt;/button&gt; is not clickable at point (331, 381). Other element would receive the click: &lt;iframe src=&quot;https://cmp-consent-tool.privacymanager.io/latest/index.html#/notice?theme=fadeToBlackTheme&amp;amp;useSystemFonts=false&amp;amp;cmpType=tcf&quot; id=&quot;gdpr-consent-notice&quot; class=&quot;faktor-iframe-wrapper&quot; aria-label=&quot;Privacy Manager window&quot; role=&quot;dialog&quot; aria-modal=&quot;true&quot; frameborder=&quot;0&quot; scrolling=&quot;yes&quot; style=&quot;width: 100%; left: 0px; bottom: 0px; position: fixed; z-index: 2147483647; box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 30px 5px, rgba(0, 0, 0, 0.14) 0px 16px 24px 2px, rgba(0, 0, 0, 0.2) 0px 8px 10px -5px; height: 343px;&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=108.0.5359.124)
+Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4292c058bf0c9cd7349f8e479b571003, clickElement {id=6c9d563b-2f35-4c89-bd0f-157d533ae334}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\kaush\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65269}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65269/devtoo..., se:cdpVersion: 108.0.5359.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (4292c058bf0c9cd7349f8e479b571003)] -&gt; xpath: //button[@id=&apos;toggle-hp-search&apos;]]
+Session ID: 4292c058bf0c9cd7349f8e479b571003"
+              >
+<![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button type="button" id="toggle-hp-search" aria-expanded="false">...</button> is not clickable at point (331, 381). Other element would receive the click: <iframe src="https://cmp-consent-tool.privacymanager.io/latest/index.html#/notice?theme=fadeToBlackTheme&amp;useSystemFonts=false&amp;cmpType=tcf" id="gdpr-consent-notice" class="faktor-iframe-wrapper" aria-label="Privacy Manager window" role="dialog" aria-modal="true" frameborder="0" scrolling="yes" style="width: 100%; left: 0px; bottom: 0px; position: fixed; z-index: 2147483647; box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 30px 5px, rgba(0, 0, 0, 0.14) 0px 16px 24px 2px, rgba(0, 0, 0, 0.2) 0px 8px 10px -5px; height: 343px;"></iframe>
+  (Session info: chrome=108.0.5359.124)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4292c058bf0c9cd7349f8e479b571003, clickElement {id=6c9d563b-2f35-4c89-bd0f-157d533ae334}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\kaush\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65269}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65269/devtoo..., se:cdpVersion: 108.0.5359.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (4292c058bf0c9cd7349f8e479b571003)] -> xpath: //button[@id='toggle-hp-search']]
+Session ID: 4292c058bf0c9cd7349f8e479b571003
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+  org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+  org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+  com.sun.proxy.$Proxy16.click(Unknown Source)
+  uk.co.library.utility.Utility.clickOnElement(Utility.java:53)
+  uk.co.library.pages.HomePage.clickOnMoreSearchOptionLink(HomePage.java:45)
+  uk.co.library.testsuite.LoginPageTest.verifyJobSearchResultUsingDifferentDataSet(LoginPageTest.java:34)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.util.ArrayList.forEach(ArrayList.java:1249)
+  org.testng.TestRunner.privateRun(TestRunner.java:808)
+  org.testng.TestRunner.run(TestRunner.java:603)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+  org.testng.SuiteRunner.run(SuiteRunner.java:326)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.runSuites(TestNG.java:1092)
+  org.testng.TestNG.run(TestNG.java:1060)
+  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+  com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="verifyJobSearchResultUsingDifferentDataSet" time="1.990" classname="uk.co.library.testsuite.LoginPageTest">
+                <failure type="org.openqa.selenium.ElementClickInterceptedException"
+                  message="element click intercepted: Element &lt;button type=&quot;button&quot; id=&quot;toggle-hp-search&quot; aria-expanded=&quot;false&quot;&gt;...&lt;/button&gt; is not clickable at point (331, 381). Other element would receive the click: &lt;iframe src=&quot;https://cmp-consent-tool.privacymanager.io/latest/index.html#/notice?theme=fadeToBlackTheme&amp;amp;useSystemFonts=false&amp;amp;cmpType=tcf&quot; id=&quot;gdpr-consent-notice&quot; class=&quot;faktor-iframe-wrapper&quot; aria-label=&quot;Privacy Manager window&quot; role=&quot;dialog&quot; aria-modal=&quot;true&quot; frameborder=&quot;0&quot; scrolling=&quot;yes&quot; style=&quot;width: 100%; left: 0px; bottom: 0px; position: fixed; z-index: 2147483647; box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 30px 5px, rgba(0, 0, 0, 0.14) 0px 16px 24px 2px, rgba(0, 0, 0, 0.2) 0px 8px 10px -5px; height: 343px;&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=108.0.5359.124)
+Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [45c7cd6d22e4375ebd044c639d0a9080, clickElement {id=f0a825ae-a531-41da-b76f-f99ee4e5b998}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\kaush\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65207}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65207/devtoo..., se:cdpVersion: 108.0.5359.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (45c7cd6d22e4375ebd044c639d0a9080)] -&gt; xpath: //button[@id=&apos;toggle-hp-search&apos;]]
+Session ID: 45c7cd6d22e4375ebd044c639d0a9080"
+              >
+<![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button type="button" id="toggle-hp-search" aria-expanded="false">...</button> is not clickable at point (331, 381). Other element would receive the click: <iframe src="https://cmp-consent-tool.privacymanager.io/latest/index.html#/notice?theme=fadeToBlackTheme&amp;useSystemFonts=false&amp;cmpType=tcf" id="gdpr-consent-notice" class="faktor-iframe-wrapper" aria-label="Privacy Manager window" role="dialog" aria-modal="true" frameborder="0" scrolling="yes" style="width: 100%; left: 0px; bottom: 0px; position: fixed; z-index: 2147483647; box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 30px 5px, rgba(0, 0, 0, 0.14) 0px 16px 24px 2px, rgba(0, 0, 0, 0.2) 0px 8px 10px -5px; height: 343px;"></iframe>
+  (Session info: chrome=108.0.5359.124)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [45c7cd6d22e4375ebd044c639d0a9080, clickElement {id=f0a825ae-a531-41da-b76f-f99ee4e5b998}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\kaush\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65207}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65207/devtoo..., se:cdpVersion: 108.0.5359.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (45c7cd6d22e4375ebd044c639d0a9080)] -> xpath: //button[@id='toggle-hp-search']]
+Session ID: 45c7cd6d22e4375ebd044c639d0a9080
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+  org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+  org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+  com.sun.proxy.$Proxy16.click(Unknown Source)
+  uk.co.library.utility.Utility.clickOnElement(Utility.java:53)
+  uk.co.library.pages.HomePage.clickOnMoreSearchOptionLink(HomePage.java:45)
+  uk.co.library.testsuite.LoginPageTest.verifyJobSearchResultUsingDifferentDataSet(LoginPageTest.java:34)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.util.ArrayList.forEach(ArrayList.java:1249)
+  org.testng.TestRunner.privateRun(TestRunner.java:808)
+  org.testng.TestRunner.run(TestRunner.java:603)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+  org.testng.SuiteRunner.run(SuiteRunner.java:326)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.runSuites(TestNG.java:1092)
+  org.testng.TestNG.run(TestNG.java:1060)
+  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+  com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="verifyJobSearchResultUsingDifferentDataSet" time="2.809" classname="uk.co.library.testsuite.LoginPageTest">
+                <failure type="org.openqa.selenium.ElementClickInterceptedException"
+                  message="element click intercepted: Element &lt;button type=&quot;button&quot; id=&quot;toggle-hp-search&quot; aria-expanded=&quot;false&quot;&gt;...&lt;/button&gt; is not clickable at point (331, 381). Other element would receive the click: &lt;iframe src=&quot;https://cmp-consent-tool.privacymanager.io/latest/index.html#/notice?theme=fadeToBlackTheme&amp;amp;useSystemFonts=false&amp;amp;cmpType=tcf&quot; id=&quot;gdpr-consent-notice&quot; class=&quot;faktor-iframe-wrapper&quot; aria-label=&quot;Privacy Manager window&quot; role=&quot;dialog&quot; aria-modal=&quot;true&quot; frameborder=&quot;0&quot; scrolling=&quot;yes&quot; style=&quot;width: 100%; left: 0px; bottom: 0px; position: fixed; z-index: 2147483647; box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 30px 5px, rgba(0, 0, 0, 0.14) 0px 16px 24px 2px, rgba(0, 0, 0, 0.2) 0px 8px 10px -5px; height: 343px;&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=108.0.5359.124)
+Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [32f7a85e5406cbf2d511333110813a8c, clickElement {id=497267ca-87bc-41ba-be69-85b9fd669d5a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\kaush\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65441}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65441/devtoo..., se:cdpVersion: 108.0.5359.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (32f7a85e5406cbf2d511333110813a8c)] -&gt; xpath: //button[@id=&apos;toggle-hp-search&apos;]]
+Session ID: 32f7a85e5406cbf2d511333110813a8c"
+              >
+<![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button type="button" id="toggle-hp-search" aria-expanded="false">...</button> is not clickable at point (331, 381). Other element would receive the click: <iframe src="https://cmp-consent-tool.privacymanager.io/latest/index.html#/notice?theme=fadeToBlackTheme&amp;useSystemFonts=false&amp;cmpType=tcf" id="gdpr-consent-notice" class="faktor-iframe-wrapper" aria-label="Privacy Manager window" role="dialog" aria-modal="true" frameborder="0" scrolling="yes" style="width: 100%; left: 0px; bottom: 0px; position: fixed; z-index: 2147483647; box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 30px 5px, rgba(0, 0, 0, 0.14) 0px 16px 24px 2px, rgba(0, 0, 0, 0.2) 0px 8px 10px -5px; height: 343px;"></iframe>
+  (Session info: chrome=108.0.5359.124)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [32f7a85e5406cbf2d511333110813a8c, clickElement {id=497267ca-87bc-41ba-be69-85b9fd669d5a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\kaush\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65441}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65441/devtoo..., se:cdpVersion: 108.0.5359.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (32f7a85e5406cbf2d511333110813a8c)] -> xpath: //button[@id='toggle-hp-search']]
+Session ID: 32f7a85e5406cbf2d511333110813a8c
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+  org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+  org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+  com.sun.proxy.$Proxy16.click(Unknown Source)
+  uk.co.library.utility.Utility.clickOnElement(Utility.java:53)
+  uk.co.library.pages.HomePage.clickOnMoreSearchOptionLink(HomePage.java:45)
+  uk.co.library.testsuite.LoginPageTest.verifyJobSearchResultUsingDifferentDataSet(LoginPageTest.java:34)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.util.ArrayList.forEach(ArrayList.java:1249)
+  org.testng.TestRunner.privateRun(TestRunner.java:808)
+  org.testng.TestRunner.run(TestRunner.java:603)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+  org.testng.SuiteRunner.run(SuiteRunner.java:326)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.runSuites(TestNG.java:1092)
+  org.testng.TestNG.run(TestNG.java:1060)
+  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+  com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="verifyJobSearchResultUsingDifferentDataSet" time="2.205" classname="uk.co.library.testsuite.LoginPageTest">
+                <failure type="org.openqa.selenium.ElementClickInterceptedException"
+                  message="element click intercepted: Element &lt;button type=&quot;button&quot; id=&quot;toggle-hp-search&quot; aria-expanded=&quot;false&quot;&gt;...&lt;/button&gt; is not clickable at point (331, 381). Other element would receive the click: &lt;iframe src=&quot;https://cmp-consent-tool.privacymanager.io/latest/index.html#/notice?theme=fadeToBlackTheme&amp;amp;useSystemFonts=false&amp;amp;cmpType=tcf&quot; id=&quot;gdpr-consent-notice&quot; class=&quot;faktor-iframe-wrapper&quot; aria-label=&quot;Privacy Manager window&quot; role=&quot;dialog&quot; aria-modal=&quot;true&quot; frameborder=&quot;0&quot; scrolling=&quot;yes&quot; style=&quot;width: 100%; left: 0px; bottom: 0px; position: fixed; z-index: 2147483647; box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 30px 5px, rgba(0, 0, 0, 0.14) 0px 16px 24px 2px, rgba(0, 0, 0, 0.2) 0px 8px 10px -5px; height: 343px;&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=108.0.5359.124)
+Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9e4246c50a5a22c8dcb704981e7a630d, clickElement {id=a0f91888-4fde-4b80-80ad-7a7afcc9a81f}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\kaush\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65382}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65382/devtoo..., se:cdpVersion: 108.0.5359.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (9e4246c50a5a22c8dcb704981e7a630d)] -&gt; xpath: //button[@id=&apos;toggle-hp-search&apos;]]
+Session ID: 9e4246c50a5a22c8dcb704981e7a630d"
+              >
+<![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button type="button" id="toggle-hp-search" aria-expanded="false">...</button> is not clickable at point (331, 381). Other element would receive the click: <iframe src="https://cmp-consent-tool.privacymanager.io/latest/index.html#/notice?theme=fadeToBlackTheme&amp;useSystemFonts=false&amp;cmpType=tcf" id="gdpr-consent-notice" class="faktor-iframe-wrapper" aria-label="Privacy Manager window" role="dialog" aria-modal="true" frameborder="0" scrolling="yes" style="width: 100%; left: 0px; bottom: 0px; position: fixed; z-index: 2147483647; box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 30px 5px, rgba(0, 0, 0, 0.14) 0px 16px 24px 2px, rgba(0, 0, 0, 0.2) 0px 8px 10px -5px; height: 343px;"></iframe>
+  (Session info: chrome=108.0.5359.124)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9e4246c50a5a22c8dcb704981e7a630d, clickElement {id=a0f91888-4fde-4b80-80ad-7a7afcc9a81f}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\kaush\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65382}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65382/devtoo..., se:cdpVersion: 108.0.5359.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (9e4246c50a5a22c8dcb704981e7a630d)] -> xpath: //button[@id='toggle-hp-search']]
+Session ID: 9e4246c50a5a22c8dcb704981e7a630d
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+  org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+  org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+  com.sun.proxy.$Proxy16.click(Unknown Source)
+  uk.co.library.utility.Utility.clickOnElement(Utility.java:53)
+  uk.co.library.pages.HomePage.clickOnMoreSearchOptionLink(HomePage.java:45)
+  uk.co.library.testsuite.LoginPageTest.verifyJobSearchResultUsingDifferentDataSet(LoginPageTest.java:34)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.util.ArrayList.forEach(ArrayList.java:1249)
+  org.testng.TestRunner.privateRun(TestRunner.java:808)
+  org.testng.TestRunner.run(TestRunner.java:603)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+  org.testng.SuiteRunner.run(SuiteRunner.java:326)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.runSuites(TestNG.java:1092)
+  org.testng.TestNG.run(TestNG.java:1060)
+  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+  com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="verifyJobSearchResultUsingDifferentDataSet" time="2.321" classname="uk.co.library.testsuite.LoginPageTest">
+                <failure type="org.openqa.selenium.ElementClickInterceptedException"
+                  message="element click intercepted: Element &lt;button type=&quot;button&quot; id=&quot;toggle-hp-search&quot; aria-expanded=&quot;false&quot;&gt;...&lt;/button&gt; is not clickable at point (331, 381). Other element would receive the click: &lt;iframe src=&quot;https://cmp-consent-tool.privacymanager.io/latest/index.html#/notice?theme=fadeToBlackTheme&amp;amp;useSystemFonts=false&amp;amp;cmpType=tcf&quot; id=&quot;gdpr-consent-notice&quot; class=&quot;faktor-iframe-wrapper&quot; aria-label=&quot;Privacy Manager window&quot; role=&quot;dialog&quot; aria-modal=&quot;true&quot; frameborder=&quot;0&quot; scrolling=&quot;yes&quot; style=&quot;width: 100%; left: 0px; bottom: 0px; position: fixed; z-index: 2147483647; box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 30px 5px, rgba(0, 0, 0, 0.14) 0px 16px 24px 2px, rgba(0, 0, 0, 0.2) 0px 8px 10px -5px; height: 343px;&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=108.0.5359.124)
+Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [13acf1bcd9572ef8b915ba6c8e1724b2, clickElement {id=bc0e8d77-a39b-41ab-aabd-f69c71b5f8e5}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\kaush\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65498}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65498/devtoo..., se:cdpVersion: 108.0.5359.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (13acf1bcd9572ef8b915ba6c8e1724b2)] -&gt; xpath: //button[@id=&apos;toggle-hp-search&apos;]]
+Session ID: 13acf1bcd9572ef8b915ba6c8e1724b2"
+              >
+<![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button type="button" id="toggle-hp-search" aria-expanded="false">...</button> is not clickable at point (331, 381). Other element would receive the click: <iframe src="https://cmp-consent-tool.privacymanager.io/latest/index.html#/notice?theme=fadeToBlackTheme&amp;useSystemFonts=false&amp;cmpType=tcf" id="gdpr-consent-notice" class="faktor-iframe-wrapper" aria-label="Privacy Manager window" role="dialog" aria-modal="true" frameborder="0" scrolling="yes" style="width: 100%; left: 0px; bottom: 0px; position: fixed; z-index: 2147483647; box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 30px 5px, rgba(0, 0, 0, 0.14) 0px 16px 24px 2px, rgba(0, 0, 0, 0.2) 0px 8px 10px -5px; height: 343px;"></iframe>
+  (Session info: chrome=108.0.5359.124)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [13acf1bcd9572ef8b915ba6c8e1724b2, clickElement {id=bc0e8d77-a39b-41ab-aabd-f69c71b5f8e5}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\kaush\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65498}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65498/devtoo..., se:cdpVersion: 108.0.5359.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (13acf1bcd9572ef8b915ba6c8e1724b2)] -> xpath: //button[@id='toggle-hp-search']]
+Session ID: 13acf1bcd9572ef8b915ba6c8e1724b2
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+  org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+  org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+  com.sun.proxy.$Proxy16.click(Unknown Source)
+  uk.co.library.utility.Utility.clickOnElement(Utility.java:53)
+  uk.co.library.pages.HomePage.clickOnMoreSearchOptionLink(HomePage.java:45)
+  uk.co.library.testsuite.LoginPageTest.verifyJobSearchResultUsingDifferentDataSet(LoginPageTest.java:34)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.util.ArrayList.forEach(ArrayList.java:1249)
+  org.testng.TestRunner.privateRun(TestRunner.java:808)
+  org.testng.TestRunner.run(TestRunner.java:603)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+  org.testng.SuiteRunner.run(SuiteRunner.java:326)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.runSuites(TestNG.java:1092)
+  org.testng.TestNG.run(TestNG.java:1060)
+  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+  com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+  
+</testsuite>
